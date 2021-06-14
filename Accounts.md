@@ -14,4 +14,24 @@
 
 ### Address Generation, Derivation, and Portability
 
-- 
+- supported curves and signature schemes
+  - Ed25519
+  - Sr25519 - Schnorr signatures on the Ristretto group
+  - ECDSA signatures on secp256k1
+- Seed
+  - [Substrate BIP39](https://github.com/paritytech/substrate-bip39) 
+
+- Subkey is a public key cryptographic utility that is developed within Substrate itself
+  - [Installation](https://substrate.dev/docs/en/knowledgebase/integrate/subkey)
+
+- **Portability**
+  - Portability depends on a number of factors:
+    - Derivation path
+    - Mnemonic format
+    - Seed derivation
+    - Signature scheme
+
+- Prefix
+  - Polkadot has an address type of `00000000b`, so `0` in decimal.
+  - Kusama (Polkadot Canary) has an address type of `00000010b`, so `2` in decimal.
+  - Generic Substrate has `00101010b` as address type, which is `42` in decimal.

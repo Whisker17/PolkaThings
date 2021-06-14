@@ -29,3 +29,4 @@
   - **Nominators**
     - bond stake to particular validators -> help them get into the active validator set -> produce blocks for the chain
     - get rewards from validators
+
