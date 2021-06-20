@@ -35,3 +35,13 @@
   - Polkadot has an address type of `00000000b`, so `0` in decimal.
   - Kusama (Polkadot Canary) has an address type of `00000010b`, so `2` in decimal.
   - Generic Substrate has `00101010b` as address type, which is `42` in decimal.
+
+- Balance Types
+  - free
+  - reserved
+  - misc_frozen / miscFrozen
+  - fee_frozen / feeFrozen
+
+- Multi-signature Accounts
+  - A multi-signature account is composed of one or more addresses and a threshold.
+  - Multi-signature accounts **cannot be modified after being created**.
