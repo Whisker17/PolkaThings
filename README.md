@@ -21,7 +21,8 @@ This repo contains some notes that I learn things about Polkadot
 | [**Polkadot Launch Phases**](https://github.com/Whisker17/PolkaThings/blob/main/PolkadotLaunchPhases.md) |      |      |
 | [**Architecture**](https://github.com/Whisker17/PolkaThings/blob/main/Architecture.md) |      |      |
 | [**Accounts**](https://github.com/Whisker17/PolkaThings/blob/main/Accounts.md) |      |      |
-| **DOT**                                                      |      |      |
+| [**DOT**](https://github.com/Whisker17/PolkaThings/blob/main/DOT.md) |      |      |
+| [**Security**](https://github.com/Whisker17/PolkaThings/blob/main/Security.md) |      |      |
 
 
 
